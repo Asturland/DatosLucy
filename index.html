@@ -106,8 +106,8 @@
     /* ── PHOTO CARD ── */
     .photo-wrap {
       position: relative;
-      width: 165px;
-      height: 165px;
+      width: 120px;
+      height: 120px;
       flex-shrink: 0;
     }
 
@@ -128,8 +128,8 @@
     .photo-inner {
       position: relative;
       z-index: 1;
-      width: 165px;
-      height: 165px;
+      width: 120px;
+      height: 120px;
       border-radius: 50%;
       background: var(--white);
       border: 4px solid var(--white);
@@ -166,9 +166,10 @@
       border: 3px solid var(--white);
     }
 
+    /* ── NAME ── */
     .pet-name {
       font-family: 'Pacifico', cursive;
-      font-size: 2.0rem;
+      font-size: 2.2rem;
       color: var(--deep);
       line-height: 1;
       text-shadow: 2px 3px 0px #FFD6E0;
@@ -179,7 +180,7 @@
     .message-card {
       background: var(--white);
       border-radius: 22px;
-      padding: 9px 20px;
+      padding: 14px 20px;
       text-align: center;
       box-shadow: 0 6px 24px #FF6B8A18;
       border: 1.5px solid #FFD6E0;
@@ -188,10 +189,10 @@
     }
 
     .message-card p {
-      font-size: 0.98rem;
+      font-size: 1.05rem;
       font-weight: 700;
       color: var(--text);
-      line-height: 1.35;
+      line-height: 1.4;
     }
 
     .message-card .owner-line {
@@ -210,7 +211,7 @@
     .buttons {
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 6px;
       width: 100%;
       max-width: 360px;
     }
@@ -222,7 +223,7 @@
       gap: 10px;
       border: none;
       border-radius: 18px;
-      padding: 13px 24px;
+      padding: 10px 24px;
       font-family: 'Nunito', sans-serif;
       font-size: 1rem;
       font-weight: 900;
@@ -283,6 +284,7 @@
       opacity: 0;
       animation: floatBone linear infinite;
       will-change: transform, opacity;
+      filter: brightness(0);
     }
 
     /* Two float paths for variety */
@@ -293,11 +295,11 @@
       }
 
       8% {
-        opacity: 0.22;
+        opacity: 0.35;
       }
 
       92% {
-        opacity: 0.22;
+        opacity: 0.35;
       }
 
       100% {
@@ -313,11 +315,11 @@
       }
 
       8% {
-        opacity: 0.15;
+        opacity: 0.25;
       }
 
       92% {
-        opacity: 0.15;
+        opacity: 0.25;
       }
 
       100% {
@@ -333,11 +335,11 @@
       }
 
       8% {
-        opacity: 0.2;
+        opacity: 0.3;
       }
 
       92% {
-        opacity: 0.2;
+        opacity: 0.3;
       }
 
       100% {
@@ -561,7 +563,7 @@
     .info-card {
       background: linear-gradient(135deg, #FFF0F5, #FFE8F5);
       border-radius: 16px;
-      padding: 7px 16px;
+      padding: 10px 16px;
       width: 100%;
       max-width: 360px;
       border: 1.5px solid #FFD6E0;
@@ -600,16 +602,16 @@
     .self-desc {
       background: var(--white);
       border-radius: 16px;
-      padding: 7px 16px;
+      padding: 10px 16px;
       width: 100%;
       max-width: 360px;
       border: 1.5px dashed var(--lilac);
       box-shadow: 0 4px 14px #E8B4D820;
-      font-size: 0.75rem;
+      font-size: 0.78rem;
       font-weight: 700;
       color: var(--text);
       text-align: center;
-      line-height: 1.4;
+      line-height: 1.45;
       font-style: italic;
     }
 
@@ -746,8 +748,15 @@
         href="https://wa.me/34650780392?text=Hola%2C%20encontr%C3%A9%20a%20tu%20perrita%20Lucy%20%F0%9F%90%BE"
         target="_blank">
         <span class="btn-icon">💬</span>
-        Enviar WhatsApp
-        <span class="btn-sub">Lucas · +34 650 780 392</span>
+        WhatsApp Lucas
+        <span class="btn-sub">+34 650 780 392</span>
+      </a>
+      <a class="btn btn-whatsapp"
+        href="https://wa.me/34605195744?text=Hola%2C%20encontr%C3%A9%20a%20tu%20perrita%20Lucy%20%F0%9F%90%BE"
+        target="_blank">
+        <span class="btn-icon">💬</span>
+        WhatsApp Jesús
+        <span class="btn-sub">+34 605 195 744</span>
       </a>
     </div>
 
